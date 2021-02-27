@@ -5,8 +5,7 @@ import Card from './components/Card'
 function App() {
   return (
     <div className="App">
-      <main className="flexbox">
-        {/* <Board /> */}
+      <main className="main">
         <Board id="Board-1" className="board">
           <Card id="card-1" className="card" draggable="true">
             <p>Card one</p>
